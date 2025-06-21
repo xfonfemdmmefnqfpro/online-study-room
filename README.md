@@ -4,6 +4,10 @@ pnpm install（ルート）→ pnpm dev で backend + frontend を並列起動�
 LiveKit をローカルで動かすなら docker compose -f livekit/docker-compose.yml up -d を別ターミナルで実行。
 
 online-study-room/
+├──my-website/
+  ├── index.html
+  ├── style.css
+  └── script.js
 ├── .gitignore
 ├── README.md
 ├── package.json        # ワークスペースルート
