@@ -426,3 +426,19 @@ services:
 
 以上を そのまま GitHub に追加 → push すれば、ローカルでもクラウド（Vercel + Render など）でも動く最小 MVP が完成します。細部の調整や追加機能のご要望があればお気軽にどうぞ！
 
+# 任意の作業フォルダへ移動（例）
+cd ~/Desktop
+
+# 自分のWebサイトのフォルダに移動
+cd my-website
+
+# Git初期化
+git init
+
+# GitHubのリポジトリと連携
+git remote add origin https://github.com/あなたのユーザー名/my-website.git
+
+# ファイル追加・コミット・プッシュ
+git add .
+git commit -m "初回アップロード"
+git push -u origin main
